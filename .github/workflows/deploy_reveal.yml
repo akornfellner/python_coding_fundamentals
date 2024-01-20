@@ -21,10 +21,12 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install --no-optional reveal-md
+          mkdir build
           cp -r slides/img build
           ./node_modules/.bin/reveal-md --static build slides/slides.md
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
           FOLDER: build
