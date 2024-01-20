@@ -2,7 +2,7 @@
 title: Coding Fundamentals with Python
 author: Alexander Kornfellner
 lang: en
-theme: black
+theme: white
 highlightTheme: monokai
 ---
 
