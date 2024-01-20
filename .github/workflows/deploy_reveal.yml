@@ -21,7 +21,7 @@ jobs:
         run: npm install -g reveal-md
 
       - name: Convert Markdown to Static Slides
-        run: reveal-md slides.md --static _site
+        run: reveal-md slides.md
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
