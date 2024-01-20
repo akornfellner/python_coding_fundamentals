@@ -21,8 +21,8 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install --no-optional reveal-md
-          cp -r img /docs/
-          ./node_modules/.bin/reveal-md --static /docs slides.md
+          cp -r slides/img docs/img
+          ./node_modules/.bin/reveal-md --static docs slides/slides.md
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:

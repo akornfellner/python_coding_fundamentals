@@ -16,7 +16,7 @@ highlightTheme: monokai
 - Known for its clear syntax and readability.
 - Developed by Guido van Rossum in the late 1980s.
 
-![](images/logo_long.png)
+![](img/logo_long.png)
 
 ----
 
@@ -30,7 +30,7 @@ highlightTheme: monokai
 
 ## Most used programming languages 2023
 
-<img src="images/programming_languages.png" alt="Programming Languages" width="700">
+<img src="img/programming_languages.png" alt="Programming Languages" width="700">
 
 ----
 
@@ -69,7 +69,7 @@ highlightTheme: monokai
 - Highly customizable and supports numerous programming languages.
 - Extensive marketplace for extensions, including Python support.
 
-<img src="images/vscode.png" alt="VS Code Logo" width="200" height="200">
+<img src="img/vscode.png" alt="VS Code Logo" width="200" height="200">
 
 ----
 
@@ -345,7 +345,7 @@ if x > 5:
 
 # Conditions
 
-![](images/cond.jpeg)
+![](img/cond.jpeg)
 
 ----
 
