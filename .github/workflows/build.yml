@@ -24,7 +24,7 @@ jobs:
       run: npx reveal-md slides/slides.md --static site  # Replace 'slides.md' with your Markdown file
 
     - name: Copy img folder
-      run: cp -r img site/img
+      run: cp -r slides/img site/img
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
