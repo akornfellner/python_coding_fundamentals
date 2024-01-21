@@ -4,4 +4,4 @@ This repository contains material for learning coding with Python for beginners 
 
 ### Slides
 
-The slides are available as PDF files in the `slides` folder or online at (here)[akornfellner.github.io/programming_coding_fundamentals/]
+The slides are available as PDF files in the `slides` folder or online at (here)[akornfellner.github.io/python_coding_fundamentals/]
