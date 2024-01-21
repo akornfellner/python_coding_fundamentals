@@ -144,6 +144,24 @@ python hello_world.py
 print("Hello World!") # This is also a comment
 ```
 
+----
+
+# User Input
+
+----
+
+## Introduction to User Input
+
+- User input is used to get data from the user.
+- In Python, you can use the `input()` function to prompt the user for input.
+- The `input()` function returns a string containing the user's input.
+- The parameter passed to the `input()` function is the prompt message.
+
+```python[|2|]
+name = input("Enter your name: ")
+print("Hello " + name)
+```
+
 ---
 
 # Variables and Data Types
@@ -510,22 +528,4 @@ for i in range(10):
     if i % 2 == 0:
         continue
     print(i)
-```
-
----
-
-# User Input
-
-----
-
-## Introduction to User Input
-
-- User input is used to get data from the user.
-- In Python, you can use the `input()` function to prompt the user for input.
-- The `input()` function returns a string containing the user's input.
-- The parameter passed to the `input()` function is the prompt message.
-
-```python[|2|]
-name = input("Enter your name: ")
-print("Hello " + name)
 ```
