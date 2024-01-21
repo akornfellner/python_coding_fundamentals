@@ -2,21 +2,23 @@
 title: Coding Fundamentals with Python
 author: Alexander Kornfellner
 lang: en
-theme: white
+theme: black
 highlightTheme: monokai
 ---
 
 # Introduction to Python
 
+<img src="img/logo_short.png" alt="Logo" width="300">
+
 ----
 
-## What is Python?
+## What is 
+
+<img src="img/logo_long.png" alt="Logo" width="450">
 
 - Python is a high-level, interpreted programming language.
 - Known for its clear syntax and readability.
 - Developed by Guido van Rossum in the late 1980s.
-
-![](img/logo_long.png)
 
 ----
 
@@ -47,7 +49,10 @@ highlightTheme: monokai
 - Easy to learn for beginners.
 - Extensive libraries and frameworks.
 - Strong community support and vast resources.
+- Used by companies like Google, Facebook, and Netflix.
+- Implement small and easy scripts to automate your daily tasks.
 - Great for data science and machine learning.
+- **Python is the future!** <!-- .element: class="fragment" -->
 
 ---
 
