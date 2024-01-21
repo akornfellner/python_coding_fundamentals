@@ -300,8 +300,8 @@ z = int(name) # this will cause an error
 
 - Logical operators are used to combine boolean values and perform logical operations.
 - Python supports the following logical operators:
-    - `and` Logical AND
-    - `or` Logical OR
+    - `and` Logical AND (both operands must be true)
+    - `or` Logical OR (at least one operand must be true)
     - `not` Logical NOT
 
 ----
@@ -423,3 +423,109 @@ status = "adult" if age >= 18 else "minor"
 print(status)
 ```
 
+---
+
+![](img/loops.jpeg)
+
+----
+
+## Introduction to Loops
+
+- Loops are used to execute a block of code repeatedly.
+- Python supports two types of loops: `for` loops and `while` loops.
+- `for` loops are used to iterate over a sequence of values.
+- `while` loops are used to execute a block of code while a condition is true.
+
+----
+
+## The `while` Loop
+
+- The `while` loop executes a block of code while a condition is true.
+- The condition is evaluated before each iteration.
+- The loop terminates when the condition becomes false.
+
+```python[|2|3-4|]
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
+
+----
+
+## `range()` Function
+
+- The `range()` function is used to generate a sequence of numbers.
+- It takes three parameters: `start`, `stop`, and `step`.
+- The `start` parameter specifies the starting value of the sequence (default is 0).
+- The `stop` parameter specifies the ending value of the sequence (not included).
+- The `step` parameter specifies the increment (default is 1).
+
+----
+
+## `range()` Function
+
+```python[|1|2|3|]
+range(5) # [0, 1, 2, 3, 4]
+range(1, 5) # [1, 2, 3, 4]
+range(1, 10, 2) # [1, 3, 5, 7, 9]
+```
+
+----
+
+## The `for` Loop
+
+- The `for` loop is used to iterate over a sequence of values.
+- The loop variable is assigned a value from the sequence in each iteration.
+- The loop terminates when all values in the sequence have been processed.
+
+```python[|1|]
+for i in range(5): # range(5) returns [0, 1, 2, 3, 4]
+    print(i)
+```
+
+----
+
+## `break`ing out of a Loop
+
+- The `break` statement is used to exit a loop prematurely.
+- It is often used to terminate a loop when a certain condition is met.
+
+```python[|2-3|]
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+----
+
+## `continue`ing a Loop
+
+- The `continue` statement is used to skip the current iteration of a loop.
+- It is often used to skip certain values in a sequence.
+
+```python[|2-3|]
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+```
+
+---
+
+# User Input
+
+----
+
+## Introduction to User Input
+
+- User input is used to get data from the user.
+- In Python, you can use the `input()` function to prompt the user for input.
+- The `input()` function returns a string containing the user's input.
+- The parameter passed to the `input()` function is the prompt message.
+
+```python[|2|]
+name = input("Enter your name: ")
+print("Hello " + name)
+```
