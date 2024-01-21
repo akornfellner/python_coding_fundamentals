@@ -1,7 +1,3 @@
 # Programming Fundamentals Course with Python
 
-This repository contains material for learning coding with Python for beginners at the HAK Eferding
-
-### Slides
-
-The slides are available as PDF files in the `slides` folder or online at (here)[akornfellner.github.io/python_coding_fundamentals/]
+This repository contains material for learning coding with Python for beginners expecially for students of the [HAK Eferding](https://www.hakeferding.at/).
